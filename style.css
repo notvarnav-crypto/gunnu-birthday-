@@ -86,3 +86,21 @@ button:hover {
     transform: translateY(0);
   }
 }
+.heart {
+  position: fixed;
+  bottom: -10px;
+  font-size: 18px;
+  animation: floatUp 6s linear infinite;
+  opacity: 0.6;
+}
+
+@keyframes floatUp {
+  from {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+  to {
+    transform: translateY(-110vh);
+    opacity: 0;
+  }
+}
