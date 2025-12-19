@@ -104,3 +104,9 @@ button:hover {
     opacity: 0;
   }
 }
+.chapter {
+  margin-top: 80px;
+  text-align: center;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
